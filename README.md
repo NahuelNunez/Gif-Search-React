@@ -1,12 +1,49 @@
-# React + Vite
+# 🏗️ Gif-Search-App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se hizo una app para que se puedan buscar imagenes de gif poder descargarlas, eliminarlas , y apto para todas los dispositivos.
 
-Currently, two official plugins are available:
+## 🚀 Instalación y ejecución
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local.
 
-## Expanding the ESLint configuration
+### 📦 Requisitos previos
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Asegúrate de tener instalado:
+
+- [Node.js](https://nodejs.org/) (versión recomendada: 18+)
+- [Git](https://git-scm.com/)
+
+### 📥 Clonar el repositorio
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+cd <NOMBRE_DEL_PROYECTO>
+
+📌 Instalar dependencias
+
+npm install
+O usa yarn install si prefieres Yarn.
+
+🔧 Configurar variables de entorno (si aplica)
+Si el proyecto utiliza variables de entorno, copia el archivo de ejemplo y edítalo:
+
+cp .env.example .env
+Luego, abre .env y ajusta los valores según tu configuración.
+
+🚀 Iniciar el servidor de desarrollo
+npm run dev
+O usa yarn dev.
+
+La aplicación se ejecutará en http://localhost:3000/ (por defecto).
+
+📜 Scripts disponibles
+Comando	Descripción
+npm run dev	Inicia la aplicación en desarrollo
+npm run build	Genera la versión de producción
+npm test	Ejecuta las pruebas
+npm run lint	Analiza el código con ESLint
+📄 Licencia
+Este proyecto está bajo la licencia MIT.
+
+Puedes modificarlo según las necesidades de tu proyecto. 🚀
+```
